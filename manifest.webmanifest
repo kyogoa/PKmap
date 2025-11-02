@@ -2,19 +2,42 @@
   "name": "Parkour Spots",
   "short_name": "Parkour",
   "start_url": ".",
+  "scope": "/",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "background_color": "#0ea5e9",
   "theme_color": "#0ea5e9",
+  "description": "パルクールに適したスポットを地図上で共有・検索するアプリ",
+  "categories": ["maps", "sports"],
+  "lang": "ja-JP",
   "icons": [
     {
       "src": "icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "スポットを追加",
+      "short_name": "追加",
+      "description": "地図の中心にスポットを追加",
+      "url": "./?action=add",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "現在地へ移動",
+      "short_name": "現在地",
+      "description": "地図を現在地に移動",
+      "url": "./?action=locate",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
     }
   ]
 }
