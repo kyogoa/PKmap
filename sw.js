@@ -1,5 +1,5 @@
 // Basic offline cache for app shell (no tile caching)
-const CACHE = 'parkour-shell-v1';
+const CACHE = 'parkour-shell-v2';
 const ASSETS = [
   './',
   './index.html',
