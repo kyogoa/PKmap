@@ -12,13 +12,13 @@
   "lang": "ja-JP",
   "icons": [
     {
-      "src": "icons/icon-192.png",
+      "src": "icons/PKmap-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icons/icon-512.png",
+      "src": "icons/PKmap-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -30,14 +30,14 @@
       "short_name": "追加",
       "description": "地図の中心にスポットを追加",
       "url": "./?action=add",
-      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+      "icons": [{ "src": "icons/PKmap-192.png", "sizes": "192x192" }]
     },
     {
       "name": "現在地へ移動",
       "short_name": "現在地",
       "description": "地図を現在地に移動",
       "url": "./?action=locate",
-      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+      "icons": [{ "src": "icons/PKmap-192.png", "sizes": "192x192" }]
     }
   ]
 }
